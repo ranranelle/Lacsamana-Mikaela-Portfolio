@@ -6,7 +6,7 @@ const data = {
     contact: {
         email: "mikaela.lacsamana@ucalgary.ca",
         phone: "+ 1 (587)-284-0609",
-        linkedin: "https://www.linkedin.com/mikaela-lacsamana/",
+        linkedin: "https://www.linkedin.com/in/mikaela-lacsamana/",
         github: "https://www.github.com/ranranelle/",
     }
 }
