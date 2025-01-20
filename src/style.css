@@ -1,10 +1,10 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
 }
 
 * {
@@ -37,20 +37,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #B7BAA7;
   color: white;
   z-index: 10;
 }
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #FFFFFF;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -95,7 +95,7 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 300px;
+  height: 475px;
   width: 300px;
   margin-right: 3em;
   margin-left: 6em;
