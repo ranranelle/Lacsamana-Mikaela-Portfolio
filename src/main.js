@@ -9,11 +9,13 @@ const cubes = [
   "./cubeDrawings/cube4.webp",
 ];
 
-const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+const interops = [
+  "./interop/interop1.png",
+  "./interop/interop2.png",
+  "./interop/interop3.png",
+  "./interop/interop4.png",
+  "./interop/interop5.png",
+  "./interop/interop6.png",
 ];
 
 const houses = [
@@ -59,25 +61,34 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      ${/* Model 2 commented out
-      <div id="project-row">
-      Model 2
+
+      02: INTEROPERABILITY
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+      <a href="./interop/interop1.png" target="_blank">
+    <img src="./interop/interop1.png" alt="interop1" />
+  </a>
+  <a href="./interop/interop2.png" target="_blank">
+     <img src="./interop/interop2.png" alt="interop2" />
+  </a>
+  <a href="./interop/interop3.png" target="_blank">
+    <img src="./interop/interop3.png" alt="interop3" />
+  </a>
+  <a href="./interop/interop4.png" target="_blank">
+    <img src="./interop/interop4.png" alt="interop4" />
+  <a href="./interop/interop5.png" target="_blank">
+    <img src="./interop/interop5.png" alt="interop5" />
+  <a href="./interop/interop6.png" target="_blank">
+    <img src="./interop/interop6.png" alt="interop6" />
+    </a>
+    
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">Project 2 explores the interoperability between Rhino and Blender, providing comprehension between the two softwares. By analyzing the geometric changes and outcomes within three different models, we gain a deeper understanding of how these programs interpret and manage forms. This exploration enhances our comprehension of their capabilities and approaches to modeling.</h4>
         </div>
       </div>
-      */""} 
 
       ${/* Model 3 commented out
       <div id="project-row">
@@ -113,6 +124,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-// createThreeScene("#model1", "/3DModels/project1/cube.obj");
-// createThreeScene("#model2", "/3DModels/project2/tree.obj");
-// createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+ createThreeScene("#model1", "/3DModels/project2/Pavilion.obj");
+ createThreeScene("#model2", "/3DModels/project2/third.obj");
+ createThreeScene("#model3", "/3DModels/project2/torus.obj");
